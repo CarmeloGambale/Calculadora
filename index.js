@@ -1,14 +1,14 @@
 const displayValorAnterior = document.getElementById('valor-anterior');
 const displayValorActual = document.getElementById('valor-actual');
-const botonesNumeros = document.querySelectorAll('.numero');
-const botonesOperadores = document.querySelectorAll('.operador');
+const botonesdeNumeros = document.querySelectorAll('.numero');
+const botonesdeOperadores = document.querySelectorAll('.operador');
 
 const display = new Display(displayValorAnterior, displayValorActual);
 
-botonesNumeros.forEach(boton => {
+botonesdeNumeros.forEach(boton => {
     boton.addEventListener('click', () => display.agregarNumero(boton.innerHTML));
 });
 
-botonesOperadores.forEach(boton => {
+botonesdeOperadores.forEach(boton => {
     boton.addEventListener('click', () => display.computar(boton.value))
 });

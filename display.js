@@ -3,7 +3,7 @@ class Display {
         this.displayValorActual = displayValorActual;
         this.displayValorAnterior = displayValorAnterior;
         this.calculador = new Calculadora();
-        this.tipoOperacion = undefined;
+        this.tipodeOperacion = undefined;
         this.valorActual = '';
         this.valorAnterior = '';
         this.signos = {
