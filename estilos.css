@@ -8,7 +8,7 @@
 }
 header{
     height: 100px;
-    background-color: #343434; 
+    background-color: #767575; 
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,7 @@ header{
 
 body {
     margin: 0;
-    background-color: #3c3c3c;
+    background-color: #fff;
 }
 .titulo{
     font-size: 32px;
@@ -28,6 +28,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .calculadora {
@@ -87,7 +89,7 @@ button:focus {
 footer {
     position: relative;
     bottom: 0;  
-    background: #343434;
+    background: #767575;
     width: 100%;
     padding-top: 40px;
     color: #fff;   
